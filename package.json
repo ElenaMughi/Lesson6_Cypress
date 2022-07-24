@@ -29,7 +29,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "cy-run-mobile": "cypress run --config-file tsmobile.config.ts",
+    "cy-run-veb": "cypress run",
+    "cy-open-mobile": "cypress open --config-file tsmobile.config.ts",
+    "cy-open-veb": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
